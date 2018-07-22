@@ -1,0 +1,44 @@
+[
+    {
+        "imagepath":"../images/image1.png",
+        "heading":"Account Summary",
+        "paragraph":"Shows a summary of all your accounts such as current a/c,savings a/c,loan a/c,deposite a/c etc"
+    },
+    {
+        "imagepath":"../images/image2.png",
+        "heading": "Branch Wise Summary",
+        "paragraph":"A summary of your accounts categorised based on branches you hold accounts with."
+    },
+    {
+        "imagepath":"../images/image3.png",
+        "heading":"Calendar",
+        "paragraph":"A list of upcoming events  scheduled in your calendar."
+    },
+    {
+        "imagepath":"../images/image4.png",
+        "heading": "Compose mail",
+        "paragraph":"A shortcut widget that lets you  communicate with the bank via e-mail."
+    },
+    {
+        "imagepath":"../images/image5.png",
+        "heading": "Consolidated Summary",
+        "paragraph":"A summary of all your linked accounts classified into various currencies."
+    },
+    {
+        "imagepath":"../images/image6.png",
+        "heading": "Current & Savings Account",
+        "paragraph":"A summary of your operative accounts."
+    },
+    {
+        "imagepath":"../images/image7.png",
+        "heading": "Customer Relationship Summary",
+        "paragraph":"A summary of all accounts linked to you."
+    },
+    {
+        "imagepath":"../images/image8.png",
+        "heading": "Sent Mail",
+        "paragraph":"Shows all your sent mails."
+    }
+
+
+]

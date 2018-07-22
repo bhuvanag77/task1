@@ -1,0 +1,505 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+}   
+@font-face{
+	font-family:OpenSans-Light;
+	src:url('C:/fmb/font family/OpenSans-Light.ttf');
+}
+@font-face{
+	font-family:OpenSans-BoldItalic;
+	src:url('C:/fmb/font family/penSans-BoldItalic.ttf');
+}
+@font-face{
+	font-family:OpenSans-Bold;
+	src:url('C:/fmb/font family/OpenSans-Bold.ttf');
+}
+@font-face{
+	font-family:OpenSans-Semibold;
+	src:url('C:/fmb/font family/OpenSans-Semibold.ttf');
+}
+@font-face{
+	font-family:Roboto-Regular;
+	src:url('C:/fmb/font family/Roboto-Regular.ttf');
+}
+@font-face{
+	font-family:Roboto-Light;
+    src:url('C:/fmb/font family/Roboto-Light.ttf');
+}
+.totalscreensize{
+    width:100%
+}
+.screenwidth{
+    max-width:1280px;
+    margin:0px auto;
+}
+.headersection{
+    padding: 25px 40px 16.5px 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fmblogo{
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.dashboard{
+    border: none;
+   outline: none;
+   font-family:OpenSans-Semibold;
+   font-size: 13px;
+   font-weight:600;
+   color:#000000;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+   text-decoration: none;
+   padding:1%;
+}
+.active, .dashboard:hover {
+    background-color: #666666;
+}
+.circle{
+    width: 31px;
+    height: 31px;
+    background-image: url('C:/fmb/images/profile-icon.png');
+}
+.welcomename{
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome{
+    font-family: OpenSans-Light;
+    font-size:12px;
+    opacity:0.87;
+    justify-content: space-between;
+    align-items: center;
+    color:#383838;
+}
+.name{
+    font-family: OpenSans-Light;
+    font-size:16px;
+    float:left;
+    color:#4a4a4a;
+}
+.logoutbutton{
+    width: 6%;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    justify-content: space-between;
+    align-items: center;
+    margin: -0.5%;
+}
+.logout{
+
+font-family: OpenSans-Bold;
+font-size:12px;
+color:#383838;
+font-weight:bold;
+}
+.fill{
+    margin-left: 10%;
+}
+.backgroundimage{
+height:225px;
+width:1213px;
+}
+.background{
+    background-color: #e3f9d4;
+    width:100%;
+}
+.rectanglesection{
+    padding:37px 38px 29px 29px;   
+}
+.myprofilebox{
+    width: 250px;
+    height: 30px;
+    background:#ffffff;
+    border: 1px solid #000000;
+    float: right;
+    display: flex;
+    margin-top:-18.5%;
+}
+.myprofile{
+    padding:3%;
+    float:left;
+    font-size:11px;
+    font-family:OpenSans-Semibold;
+}
+.contactus{
+    padding:3% 15%;
+    padding-left: 3%;
+    float:left;
+    font-size:11px;
+    font-family:OpenSans-Semibold;
+}
+.aa{
+    float: right;
+    width: 8%;
+    height: 55%;
+    padding: 2% 8%;
+}
+
+.centerbackground{
+    background-color:#f1f1f1;
+    width:100%;
+}
+.centerbox{
+    transition: box-shadow .3s;
+    width:1221px;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display:inline-block;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    margin: -2.5% 3% 3% 3%;
+}
+.centerboxheader{
+    height:50px;
+}
+.innerdashboard{
+    font-family:OpenSans-Bold;
+    font-size :12px;
+    font-weight:bold;
+    float:left;
+    color:#373d3f;
+    padding:1.5%;
+}
+.innerdashboard1{
+    padding: 1.5%;
+    float:left;
+}
+.innerdashboard2{
+    font-size:12px;
+    float:left;
+    font-family:OpenSans-Light;
+    color:#4a4a4a;
+}
+.widget-library{
+    font-size:12px;
+    float:left;
+    color:#4a4a4a;
+    font-family:OpenSans-SemiBold;
+}
+.line{
+    border:solid 1px #d9e0e6;
+}
+.centersection{
+    width:100%;
+    display:inline-block;
+}
+.centersection1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.greenarrow{
+    display: inline-block;
+    padding:3%;
+    vertical-align:middle;
+    background-size: cover;
+}
+.widget-library1{
+    font-family:OpenSans-SemiBold;
+    font-size:20px;
+    color:#4a4a4a;
+    font-weight:600;
+    display:inline-block;
+    vertical-align: middle;
+}
+.rectangle{
+    padding:37px 38px 0px 29px;   
+   width:103px;
+   height:22px;
+}
+.widget-filter{
+    font-size:16px;
+    font-family:OpenSans-Semibold;
+    color:#4a4a4a;
+    font-weight:600;
+    vertical-align: middle;
+    display:inline-block;
+    padding:6.5%;
+}
+.rectangle1{
+    width:250px;
+    border:solid 1px #f1f1f1;
+    justify-content: flex-end;
+    vertical-align: middle;
+   margin:1.1% 6.5%;
+}
+.filter{
+   display:inline-block;
+   vertical-align:middle;
+  padding:5%;
+  float:right;
+}
+.sec1{
+    width: 50%;
+    justify-content: flex-start;    
+}
+.statement{
+    font-family:OpenSans-Light;
+    font-size:12px;
+    color:#4a4a4a;
+    padding:0% 9%;
+}
+.clearfix {
+   overflow: auto;
+   padding: 0px 67px 0px 67px;
+}
+.innerbox{
+    width:240px;
+    height: 290px;
+    border-radius: 1px;
+    background: #ffffff;
+    float: left;
+    box-sizing: border-box;
+    margin:1.5% 1.4%;
+    box-shadow:0 1px 3px 1px rgba(0, 0, 0, 0.07);
+}
+.innerbox:hover{
+    box-shadow: 0 0 11px #62bd19; 
+}
+.image{
+    text-align: center;
+    padding:13%;
+}
+.page{
+    font-size:14px;
+    font-family:OpenSans-Light;
+    color:#4a4a4a;
+    opacity:0.87;
+    float: right;
+    padding:0% 1%;
+}
+.rightarrow{
+    float: right;
+}
+.line1{
+    width: 1123px;
+    border: solid 1px #c6cfd6;
+    margin: 3% 6% 1% 6%;
+}
+.bottombutton{
+    padding: 1% 0% 4% 1%;
+}
+.pageno{
+    padding:1% 7% 2% 0%;
+}
+.removebutton{
+    width: 6%;
+    background-color:  #75c039;
+    float: right;
+    margin: 0.5% 6% 0.5% 0%;
+    border-radius:2px;
+    box-shadow:0 2px 0 0 #62bd19;
+}
+.remove{
+    padding: 6% ;
+    font-family: OpenSans-Bold;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #75c039;
+    font-weight: bold;
+    text-align: center;
+}
+.addbutton{
+    width: 6%;
+    border-radius: 2px;
+    background-color: #75c039;
+    float: right;
+    margin: 0.5%;
+    box-shadow: 0 2px 0 0 #62bd19;
+}
+.add{
+    padding:6%;
+    font-family: OpenSans-Bold;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #75c039;
+    font-weight: bold;
+    text-align: center;
+}
+.backbutton{
+    width: 6%;
+    border-radius: 2px;
+    border:solid 1px #c6cfd6;
+    float: right;
+    background-color: #ffffff;
+    box-shadow:0 2px 0 0 #c6cfd6;
+    margin: 0.5% 0% 0.5% 0%;
+}
+.back{
+    padding: 6%;
+    font-family: OpenSans-Bold;
+    font-size: 12px;
+    color: #000000;
+    text-align:center;
+    font-weight: bold;
+}
+.footertext{
+    text-align:center;
+    color:#4a4a4a;
+    font-size:14px;
+    font-weight:300;
+    padding:1%;
+    font-family: Roboto-Light;
+}
+.footertext2{
+    font-family:Roboto-Regular;
+    font-size:11px;
+    color:#9b9b9b;
+    text-align:center;
+    letter-spacing: 0.4px;
+}
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    padding:1%;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding:5% 5% 7% 4%;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {
+    display: block;
+}
+.dropbtn1 {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn1:hover, .dropbtn1:focus {
+    background-color: #2980B9;
+}
+.dropdown1 {
+    margin-left: -11%;
+    padding:1%;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a{
+    color: black;
+    padding:5% 5% 7% 4%;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1 a:hover {background-color: #ddd;}
+
+.show1 {
+    display: block;
+}
+.branch{
+    color:#4a4a4a;
+    font-family:OpenSans-SemiBold;
+    font-size:13px;
+    font-weight:600;
+    text-align: center;
+    padding:5%;
+}
+.branch{
+    color:#4a4a4a;
+    font-family:OpenSans-SemiBold;
+    font-size:13px;
+    font-weight:600;
+    text-align: center;
+    padding:5%;
+}
+.text2{
+    color:#4a4a4a;
+    font-family:OpenSans-Light;
+    font-size:12px;
+    line-height:1.5;
+    text-align: center;
+    padding:3%;
+}
+
+    
+    
